@@ -1,0 +1,30 @@
+[
+    {
+        "id": "tools",
+        "children": [
+            {
+                "caption": "SublimeREPL",
+                "mnemonic": "R",
+                "id": "SublimeREPL",
+                "children": [
+                    {
+                        "command": "repl_open",
+                        "caption": "Nix",
+                        "id": "repl_nix",
+                        "mnemonic": "N",
+                        "args": {
+                            "type": "subprocess",
+                            "external_id": "nix",
+                            "encoding": "utf8",
+                            "cmd": ["nix", "repl"],
+                            "cwd": "$file_path",
+                            "extend_env": {}, // variables to be added to standard env
+                            "cmd_postfix": "\n", // postfix that will be automatically added after a line in repl
+                            "syntax": "Packages/Nix/nix.tmLanguage"
+                        }
+                    },
+                ]
+            }
+        ]
+    }
+]

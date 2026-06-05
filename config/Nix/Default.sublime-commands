@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "SublimeREPL: Nix",
+        "command": "run_existing_window_command",
+        "args": {
+            "id": "repl_Nix",
+            "file": "config/Nix/Main.sublime-menu"
+        }
+    }
+]
