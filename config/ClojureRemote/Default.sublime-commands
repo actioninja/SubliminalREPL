@@ -1,6 +1,6 @@
 [
     {
-        "caption": "SublimeREPL: ClojureRemote",
+        "caption": "SubliminalREPL: ClojureRemote",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_clojure_remote",

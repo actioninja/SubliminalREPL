@@ -3,9 +3,9 @@
         "id": "tools",
         "children":
         [{
-            "caption": "SublimeREPL",
+            "caption": "SubliminalREPL",
             "mnemonic": "R",
-            "id": "SublimeREPL",
+            "id": "SubliminalREPL",
             "children":
             [
                 {"caption": "Eval in REPL",
@@ -45,14 +45,14 @@
                 "children":
                 [
                     {
-                        "caption": "SublimeREPL",
+                        "caption": "SubliminalREPL",
                         "children":
                         [
                             {
-                                "caption": "SublimeREPL Settings",
+                                "caption": "SubliminalREPL Settings",
                                 "command": "edit_settings",
                                 "args": {
-                                    "base_file": "${packages}/SublimeREPL/SublimeREPL.sublime-settings"
+                                    "base_file": "${packages}/SubliminalREPL/SubliminalREPL.sublime-settings"
                                 }
                             }
                         ]

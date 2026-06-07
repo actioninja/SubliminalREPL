@@ -1,4 +1,4 @@
-Welcome to SublimeREPL 2.0.0
+Welcome to SubliminalREPL 2.0.0
 ============================
 
 This is the first, official Sublime Text 3 and Sublime Text 2
@@ -19,7 +19,7 @@ Now the good news. Lots, and I mean LOTS of issues were closed,
 in those 5 months. Many of them directly driven by your input.
 Here's a condensed changelog, if you want to learn more
 feel free to visit
-  - https://github.com/wuub/SublimeREPL/issues
+  - https://github.com/wuub/SubliminalREPL/issues
 
 
 - NEW: Compatibility with Sublime Text 3 and Sublime Text 2 with single codebase

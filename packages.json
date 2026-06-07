@@ -2,8 +2,8 @@
     "schema_version": "3.0.0",
     "packages": [{
         "name": "SubliminalREPL",
-        "details": "https://github.com/wuub/SublimeREPL",
-        "description": "SublimeREPL - run an interpreter inside ST2 (Clojure, CoffeeScript, F#, Groovy, Haskell, Lua, MozRepl, NodeJS, Python + virtualenv, R, Ruby, Scala...)",
+        "details": "https://github.com/actioninja/SubliminalREPL",
+        "description": "SubliminalREPL - A Modernized way to run a REPL within Sublime Text",
         "releases": [
             {
                 "sublime_text": "*",

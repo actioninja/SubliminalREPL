@@ -3,9 +3,9 @@
         "id": "tools",
         "children":
         [{
-            "caption": "SublimeREPL",
+            "caption": "SubliminalREPL",
             "mnemonic": "R",
-            "id": "SublimeREPL",
+            "id": "SubliminalREPL",
             "children":
             [
                 {"command": "repl_open", 
@@ -15,7 +15,7 @@
                  "args": {
                     "type": "subprocess",
                     "encoding": "utf8",
-                    "cmd": ["perl","${packages}/SublimeREPL/config/Perl/re.pl"],
+                    "cmd": ["perl","${packages}/SubliminalREPL/config/Perl/re.pl"],
                     "cwd": "$file_path",
                     "external_id": "perl",
                     "syntax": "Packages/Perl/Perl.tmLanguage"

@@ -3,9 +3,9 @@
         "id": "tools",
         "children":
         [{
-            "caption": "SublimeREPL",
+            "caption": "SubliminalREPL",
             "mnemonic": "R",
-            "id": "SublimeREPL",
+            "id": "SubliminalREPL",
             "children":
             [
                 {"caption": "Python",
@@ -66,9 +66,9 @@
                         "encoding": "utf8",
                         "autocomplete_server": true,
                         "cmd": {
-                            "osx": ["python", "-u", "${packages}/SublimeREPL/config/Python/ipy_repl.py"],
-                            "linux": ["python", "-u", "${packages}/SublimeREPL/config/Python/ipy_repl.py"],
-                            "windows": ["python", "-u", "${packages}/SublimeREPL/config/Python/ipy_repl.py"]
+                            "osx": ["python", "-u", "${packages}/SubliminalREPL/config/Python/ipy_repl.py"],
+                            "linux": ["python", "-u", "${packages}/SubliminalREPL/config/Python/ipy_repl.py"],
+                            "windows": ["python", "-u", "${packages}/SubliminalREPL/config/Python/ipy_repl.py"]
                         },
                         "cwd": "$file_path",
                         "syntax": "Packages/Python/Python.tmLanguage",

@@ -1,6 +1,6 @@
 [
     {
-        "caption": "SublimeREPL: C++ Build",
+        "caption": "SubliminalREPL: C++ Build",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_plusplus_build",
@@ -8,7 +8,7 @@
         }
     },
     {
-        "caption": "SublimeREPL: C++ Run",
+        "caption": "SubliminalREPL: C++ Run",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_plusplus_run",

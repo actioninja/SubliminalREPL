@@ -1,6 +1,6 @@
 [
     {
-        "caption": "SublimeREPL: Perl",
+        "caption": "SubliminalREPL: Perl",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_Perl",

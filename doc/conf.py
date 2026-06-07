@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# SublimeREPL documentation build configuration file, created by
+# SubliminalREPL documentation build configuration file, created by
 # sphinx-quickstart on Sun Feb 26 16:38:41 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'SublimeREPL'
+project = 'SubliminalREPL'
 copyright = '2012, Wojciech Bederski'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SublimeREPLdoc'
+htmlhelp_basename = 'SubliminalREPLdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,7 +183,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'SublimeREPL.tex', 'SublimeREPL Documentation',
+  ('index', 'SubliminalREPL.tex', 'SubliminalREPL Documentation',
    'Wojciech Bederski', 'manual'),
 ]
 
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'sublimerepl', 'SublimeREPL Documentation',
+    ('index', 'subliminalrepl', 'SubliminalREPL Documentation',
      ['Wojciech Bederski'], 1)
 ]
 
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'SublimeREPL', 'SublimeREPL Documentation',
-   'Wojciech Bederski', 'SublimeREPL', 'One line description of project.',
+  ('index', 'SubliminalREPL', 'SubliminalREPL Documentation',
+   'Wojciech Bederski', 'SubliminalREPL', 'One line description of project.',
    'Miscellaneous'),
 ]
 

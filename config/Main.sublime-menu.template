@@ -3,9 +3,9 @@
         "id": "tools",
         "children":
         [{
-            "caption": "SublimeREPL",
+            "caption": "SubliminalREPL",
             "mnemonic": "R",
-            "id": "SublimeREPL",
+            "id": "SubliminalREPL",
             "children":
             [
                 // {"command": "repl_open",

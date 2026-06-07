@@ -1,6 +1,6 @@
 [
     {
-        "caption": "SublimeREPL: Lua",
+        "caption": "SubliminalREPL: Lua",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_lua",

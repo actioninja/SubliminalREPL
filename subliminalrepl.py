@@ -17,13 +17,13 @@ import sublime_plugin
 
 try:
     import queue
-    from . import sublimerepl_build_system_hack
+    from . import subliminalrepl_build_system_hack
     from . import repls
     from .repllibs import PyDbLite
     unicode_type = str
     PY2 = False
 except ImportError:
-    import sublimerepl_build_system_hack
+    import subliminalrepl_build_system_hack
     import repls
     from repllibs import PyDbLite
     import Queue as queue
@@ -31,7 +31,7 @@ except ImportError:
     PY2 = True
 
 PLATFORM = sublime.platform().lower()
-SETTINGS_FILE = 'SublimeREPL.sublime-settings'
+SETTINGS_FILE = 'SubliminalREPL.sublime-settings'
 SUBLIME2 = sublime.version() < '3000'
 
 RESTART_MSG = """
@@ -131,7 +131,7 @@ class MemHistory(History):
 class PersistentHistory(MemHistory):
     def __init__(self, external_id):
         super(PersistentHistory, self).__init__()
-        path = os.path.join(sublime.packages_path(), "User", ".SublimeREPLHistory")
+        path = os.path.join(sublime.packages_path(), "User", ".SubliminalREPLHistory")
         if not os.path.isdir(path):
             os.makedirs(path)
         filepath = os.path.join(path, external_id + ".db")
@@ -366,12 +366,12 @@ class ReplView(object):
                     self.write_prompt(data)
                 elif opcode == 'highlight':
                     a, b = data
-                    regions = self._view.get_regions('sublimerepl')
+                    regions = self._view.get_regions('subliminalrepl')
                     regions.append(sublime.Region(a, b))
-                    self._view.add_regions('sublimerepl', regions, 'invalid',
+                    self._view.add_regions('subliminalrepl', regions, 'invalid',
                                            '', sublime.DRAW_EMPTY | sublime.DRAW_OUTLINED)
                 else:
-                    print('SublimeREPL: unknown REPL opcode: ' + opcode)
+                    print('SubliminalREPL: unknown REPL opcode: ' + opcode)
         else:
             self.write(packet)
 
@@ -566,7 +566,7 @@ class ReplManager(object):
             res["folder"] = res["file_path"]
 
         if sublime.load_settings(SETTINGS_FILE).get("use_build_system_hack", False):
-            project_settings = sublimerepl_build_system_hack.get_project_settings(window)
+            project_settings = subliminalrepl_build_system_hack.get_project_settings(window)
             res.update(project_settings)
 
         return res

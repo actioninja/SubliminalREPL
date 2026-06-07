@@ -1,6 +1,6 @@
 [
     {
-        "caption": "SublimeREPL: Shell",
+        "caption": "SubliminalREPL: Shell",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_shell",

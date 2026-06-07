@@ -1,7 +1,7 @@
 {
     // default_extend_env are used to augment any environment variables
     // that should be visible for all subprocess repls launched within
-    // SublimeREPL. This is a very good place to add PATH extension
+    // SubliminalREPL. This is a very good place to add PATH extension
     // once "PATH": "{PATH}:/home/username/mylocalinstalls/bin" or whatever.
     // Add "REPL_USE_RAILS_BUNDLER": true" to use bundler in pry rails console
     "default_extend_env": {},
@@ -21,10 +21,10 @@
     // REPLS will share history. If you wish, you can disable history altogether.
     "persistent_history_enabled": true,
 
-    // By default SublimeREPL leaves REPL view open once the underlying subprocess
+    // By default SubliminalREPL leaves REPL view open once the underlying subprocess
     // dies or closes connection. This is useful when the process dies for an unexpected
     // reason as it allows you to inspect it output. Setting this to true 
-    // will cause SublimeREPL to close the REPL view once the process dies.
+    // will cause SubliminalREPL to close the REPL view once the process dies.
     "view_auto_close": false,
 
     // On POSIX system Sublime Text launched from GUI does not inherit
@@ -67,7 +67,7 @@
     // is started so beware!
     "use_build_system_hack": false,
 
-    // IP address used to setup autocomplete server in SublimeREPL.
+    // IP address used to setup autocomplete server in SubliminalREPL.
     // Changing this is useful when you want to exclude an address
     // from proxychains/tsocks routing
     "autocomplete_server_ip": "127.0.0.1",
@@ -81,7 +81,7 @@
         "octave": "matlab"
     },
 
-    // If set to true, SublimeREPL will try to append evaluated code to REPL
+    // If set to true, SubliminalREPL will try to append evaluated code to REPL
     // output before evaluation (e.g. Ctrl+, f).
     "show_transferred_text": false,
 

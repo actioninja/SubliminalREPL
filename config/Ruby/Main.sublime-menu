@@ -3,9 +3,9 @@
     "id":"tools",
     "children":[
       {
-        "caption":"SublimeREPL",
+        "caption":"SubliminalREPL",
         "mnemonic":"R",
-        "id":"SublimeREPL",
+        "id":"SubliminalREPL",
         "children":[
           {
             "caption":"Ruby",
@@ -22,17 +22,17 @@
                   "cmd":{
                     "windows":[
                       "ruby.exe",
-                      "${packages}/SublimeREPL/config/Ruby/pry_repl.rb",
+                      "${packages}/SubliminalREPL/config/Ruby/pry_repl.rb",
                       "$editor"
                     ],
                     "linux":[
                       "ruby",
-                      "${packages}/SublimeREPL/config/Ruby/pry_repl.rb",
+                      "${packages}/SubliminalREPL/config/Ruby/pry_repl.rb",
                       "$editor"
                     ],
                     "osx":[
                       "ruby",
-                      "${packages}/SublimeREPL/config/Ruby/pry_repl.rb",
+                      "${packages}/SubliminalREPL/config/Ruby/pry_repl.rb",
                       "$editor"
                     ]
                   },

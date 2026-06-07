@@ -1,6 +1,6 @@
 [
     {
-        "caption": "SublimeREPL: Clozure CL",
+        "caption": "SubliminalREPL: Clozure CL",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_ccl",
@@ -8,7 +8,7 @@
         }
     },
     {
-        "caption": "SublimeREPL: SBCL",
+        "caption": "SubliminalREPL: SBCL",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_sbcl",
@@ -16,7 +16,7 @@
         }
     },
     {
-        "caption": "SublimeREPL: GNU Clisp",
+        "caption": "SubliminalREPL: GNU Clisp",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_clisp",
@@ -24,7 +24,7 @@
         }
     },
     {
-        "caption": "SublimeREPL: Allegro CL",
+        "caption": "SubliminalREPL: Allegro CL",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_allegro",
@@ -32,7 +32,7 @@
         }
     },
     {
-        "caption": "SublimeREPL: ABCL",
+        "caption": "SubliminalREPL: ABCL",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_abcl",
@@ -40,7 +40,7 @@
         }
     },
     {
-        "caption": "SublimeREPL: CMUCL",
+        "caption": "SubliminalREPL: CMUCL",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_cmucl",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "caption": "SublimeREPL: ECL",
+        "caption": "SubliminalREPL: ECL",
         "command": "run_existing_window_command", "args":
         {
             "id": "repl_ecl",

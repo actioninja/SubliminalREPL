@@ -17,7 +17,7 @@ class SublimeUTopRepl(SubprocessRepl):
         self._buffer = b''
 
         # Phrase pending input with mapping of utop-lines to
-        # SublimeREPL-view-lines.
+        # SubliminalREPL-view-lines.
         self._phrase = []
         self._phrase_line_begins = []
 
@@ -43,7 +43,7 @@ class SublimeUTopRepl(SubprocessRepl):
     #
     # User interaction consists of visible artifacts (prompt, etc)
     # and input in form of complete expressions. History is handled
-    # by SublimeREPL.
+    # by SubliminalREPL.
     #
 
     def compose_highlights(self, a, b):
