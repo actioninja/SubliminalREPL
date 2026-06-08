@@ -3,7 +3,7 @@
         "caption": "SubliminalREPL: Nix",
         "command": "run_existing_window_command",
         "args": {
-            "id": "repl_Nix",
+            "id": "repl_nix",
             "file": "config/Nix/Main.sublime-menu"
         }
     }
