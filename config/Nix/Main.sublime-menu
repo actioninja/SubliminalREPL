@@ -18,8 +18,8 @@
                             "encoding": "utf8",
                             "cmd": ["nix", "repl"],
                             "cwd": "$file_path",
-                            "extend_env": {}, // variables to be added to standard env
-                            "cmd_postfix": "\n", // postfix that will be automatically added after a line in repl
+                            "extend_env": {},
+                            "cmd_postfix": "\n",
                             "syntax": "Packages/Nix/nix.tmLanguage"
                         }
                     },

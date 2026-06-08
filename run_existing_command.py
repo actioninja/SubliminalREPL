@@ -16,12 +16,6 @@ def plugin_loaded():
     SUBLIMEREPL_DIR = "Packages/SubliminalREPL"
     SUBLIMEREPL_USER_DIR = os.path.join(sublime.packages_path(), "User", "SubliminalREPL")
 
-PY2 = False
-if sys.version_info[0] == 2:
-    SUBLIMEREPL_DIR = os.getcwdu()
-    SUBLIMEREPL_USER_DIR = os.path.join(sublime.packages_path(), "User", "SubliminalREPL")
-    PY2 = True
-
 # yes, CommandCommmand :) 
 class RunExistingWindowCommandCommand(sublime_plugin.WindowCommand):
     def run(self, id, file):
@@ -42,7 +36,7 @@ class RunExistingWindowCommandCommand(sublime_plugin.WindowCommand):
                 
     def _find_cmd_in_file(self, id, file):
         try:
-            if PY2 or os.path.isfile(file):
+            if os.path.isfile(file):
                 with open(file) as f:
                     bytes = f.read()
             else:
@@ -50,6 +44,7 @@ class RunExistingWindowCommandCommand(sublime_plugin.WindowCommand):
         except (IOError, ValueError):
             return None
         else:
+            print(file)
             data = json.loads(bytes)
             return self._find_cmd_in_json(id, data)
 
